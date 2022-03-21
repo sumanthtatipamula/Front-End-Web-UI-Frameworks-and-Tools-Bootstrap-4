@@ -1,0 +1,47 @@
+Foundations for Responsive Design
+1. Grid System
+2. Fluid Images
+3. Media Queries
+
+view port
+---------
+-- ensures that the screen width is set to the device width and the content is rendered with this width in mind.
+
+Bootstrap
+---------
+-- uses CSS Flexbox layout from version 4
+-- supports direction-agnostic layout
+how does the grid works
+1. class = container 
+    fixed with container.
+    container-fluid --
+2. each container is divided into rows
+3. Each row in divided in to 12 columns.
+4. Bootstrap provides 5 classes
+    -- default targets all screen sizes from xs to xl
+    -- sm
+    -- md
+    -- lg
+    -- xl
+5. use the classes to specify columns sizes col-* col-sm-*
+6. col-sm-5 means from small to extra large screen this element will occupy s columns.
+7. we can also skip no.of columns .col-sm, if there are 3 such elements then each will occupy 4 columns.
+8. Gutter width : 30px(15px on each side of column)
+9. Max container width : device width
+    sm : 540px : >= 576px
+    medium: 720px : >= 768px
+    large: 960px : >=992px
+    extra large: 1140px : >=1200px
+10. Reordering content
+    order-sm-first - this makes element to be pushed towards first
+    order-sm-last - this makes element to be pushed towards last
+11. Vertical Alignment
+    Applied to row class
+        align-items-center,start,end
+    Applied to column class
+        align-self-center,start,end
+12. Horizontal Alignment    '
+    Applied to row class
+        justify-content-center - start,end,between,around
+13 Offset:
+    offset-sm-1 : means content to be right shifted by 1 columns from sm to xl screens
