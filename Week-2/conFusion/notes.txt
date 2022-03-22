@@ -39,4 +39,17 @@ Breadcrumbs
     2. breadcrumb-item -- li
     3. active -- to indicate current 
 
+IconFonts:
+    1. Set of symbols and glyphs
+    2. can be used like regular IconFonts
+    3. packages: Font Awesome & Bootstrap-social for(twitter,fb,insta,google icons)
+    4. we can use i or span tag for font-awesome tags
+    classes:
+        1. fa fa-home
+        2. fa fa-info
+        3. fa-lg for larger icons
+
+Bootstrap-social:
+    1. btn btn-social-icon btn-google
+
 
