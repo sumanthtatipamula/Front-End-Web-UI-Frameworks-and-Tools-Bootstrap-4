@@ -1,47 +1,42 @@
-Foundations for Responsive Design
-1. Grid System
-2. Fluid Images
-3. Media Queries
+Why WebSite Navigation ?
+    1. Websites are rarely single pages.
 
-view port
----------
--- ensures that the screen width is set to the device width and the content is rendered with this width in mind.
+Information Architecture:
+    1. Structure of a system with respect to the way the information is 
+        a. organized
+        b. labeled
+        c. navigation methods
+    2. Need to consider when designing sites.
 
-Bootstrap
----------
--- uses CSS Flexbox layout from version 4
--- supports direction-agnostic layout
-how does the grid works
-1. class = container 
-    fixed with container.
-    container-fluid --
-2. each container is divided into rows
-3. Each row in divided in to 12 columns.
-4. Bootstrap provides 5 classes
-    -- default targets all screen sizes from xs to xl
-    -- sm
-    -- md
-    -- lg
-    -- xl
-5. use the classes to specify columns sizes col-* col-sm-*
-6. col-sm-5 means from small to extra large screen this element will occupy s columns.
-7. we can also skip no.of columns .col-sm, if there are 3 such elements then each will occupy 4 columns.
-8. Gutter width : 30px(15px on each side of column)
-9. Max container width : device width
-    sm : 540px : >= 576px
-    medium: 720px : >= 768px
-    large: 960px : >=992px
-    extra large: 1140px : >=1200px
-10. Reordering content
-    order-sm-first - this makes element to be pushed towards first
-    order-sm-last - this makes element to be pushed towards last
-11. Vertical Alignment
-    Applied to row class
-        align-items-center,start,end
-    Applied to column class
-        align-self-center,start,end
-12. Horizontal Alignment    '
-    Applied to row class
-        justify-content-center - start,end,between,around
-13 Offset:
-    offset-sm-1 : means content to be right shifted by 1 columns from sm to xl screens
+Navigation Bar:
+Do's
+    1. Use Simple,user friendly terms
+    2. Standardize navigation
+    3. Provide indication of the location within the navigation hierarchy (using breadcrumbs)
+    4. Use standard web conventions:
+        eg: Clicking on a logo takes back to home page.
+Dont's:
+    1. Have too many items
+    2. Use generic Labels
+
+Navbar classes:
+    1.navbar-expand-sm : allows navbar to collapse in xs screens.
+    2.navbar-brand : to display logos
+    3.fixed-top : even when u scroll down navbar will be seen and it will be in top.
+    4.navbar-nav : to specify links(ul)
+    5. mr-auto : content should be pushed as left as possible 
+    6. nav-item : to specify li item.
+    7. nav-link: to specify the link.
+    8. active: used on nav-item to indicate the page user currently in.
+    9. navbar-toggler: to create a toggle button for navbar for small and xs screens
+        data-toggle="collapse"(js component)
+        data-target="#Navbar"  -- Navbar is id of div 
+    10. navbar-toggler-icon -- provides an icon to the toggler(applied to button using span class).
+    11. collapse , navbar-collapse for grouping and hiding navbar contents by a parent breakpoint.
+
+Breadcrumbs
+    1. breadcrumb -- on ol or div
+    2. breadcrumb-item -- li
+    3. active -- to indicate current 
+
+
