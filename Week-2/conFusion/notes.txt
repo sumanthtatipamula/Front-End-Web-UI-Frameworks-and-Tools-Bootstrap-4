@@ -52,4 +52,8 @@ IconFonts:
 Bootstrap-social:
     1. btn btn-social-icon btn-google
 
+Forms:
+    1. div with classes form-group row
+    2. class col-form-label for label tag
+
 
