@@ -7,3 +7,7 @@ Bootstrap Nav Classes
 Tabs and pills
 --------------
 1. Navigation elements for navigating content within a page that is organized into multiple panes
+
+Collapse Plugin
+---------------
+1. Collapse plugin provides a quick way of revealing and hiding content.
