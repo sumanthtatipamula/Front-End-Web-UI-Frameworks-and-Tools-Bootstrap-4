@@ -11,3 +11,13 @@ Tabs and pills
 Collapse Plugin
 ---------------
 1. Collapse plugin provides a quick way of revealing and hiding content.
+
+Tooltips,Popovers and Modals
+----------------------------
+Revealing content upon interacting with an element on the web page.
+Information displayed as an overlay
+Modals
+    1. More detailed information can be presented than tooltips and Popovers
+    2. Modal contains header body and footer
+    3. Can use the bootstrap grid in the body to organize content.
+
