@@ -1,0 +1,9 @@
+Bootstrap Nav Classes 
+---------------------
+1. Navbar-Nav
+2. nav-tabs
+3. nav-pills
+
+Tabs and pills
+--------------
+1. Navigation elements for navigating content within a page that is organized into multiple panes
