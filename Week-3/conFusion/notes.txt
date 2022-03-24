@@ -21,3 +21,7 @@ Modals
     2. Modal contains header body and footer
     3. Can use the bootstrap grid in the body to organize content.
 
+Carousel
+--------
+An interesting component that allows the inclusion of a slideshow with captions
+
